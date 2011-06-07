@@ -1,0 +1,6 @@
+<%= form_tag(start_music_path) do %>
+  <%= label_tag :artist_or_song %>: 
+  <%= text_field_tag :search %><br />
+  Start with similar artists: <%= check_box_tag :similar %><br />
+  <%= submit_tag "Begin the expirence" %>
+<% end %>
